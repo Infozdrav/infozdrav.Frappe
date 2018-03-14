@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include infozdrav *.css
+recursive-include infozdrav *.csv
+recursive-include infozdrav *.html
+recursive-include infozdrav *.ico
+recursive-include infozdrav *.js
+recursive-include infozdrav *.json
+recursive-include infozdrav *.md
+recursive-include infozdrav *.png
+recursive-include infozdrav *.py
+recursive-include infozdrav *.svg
+recursive-include infozdrav *.txt
+recursive-exclude infozdrav *.pyc
